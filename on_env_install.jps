@@ -1,0 +1,11 @@
+type: update
+name: Test warning message from ON_ENV_INSTALL script
+
+permanent: true
+
+targetNodes: none
+
+onInstall:
+      return:
+        type: warning
+        message: Warning message
